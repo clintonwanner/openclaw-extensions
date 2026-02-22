@@ -21,7 +21,7 @@ This repository contains various skills that extend the capabilities of OpenClaw
 - **strategist** - Long-term planning and reflection capabilities
 
 ### Integration Skills
-- **erid** - External resource integration and data management
+- **erid** - Executive Role Intelligence Dashboard — track CISO/VP security roles, executive search firms, applications, and career signals
 - **ipis** - Intelligent process integration system
 
 ### Utility Skills
