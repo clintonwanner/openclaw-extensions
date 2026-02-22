@@ -9,9 +9,8 @@ This repository contains various skills that extend the capabilities of OpenClaw
 - **Agent personas** - Predefined agent roles and personas
 - **Task orchestration** - Parallel execution and coordination of sub-agents
 - **Planning systems** - Actor-Critic architecture for strategic planning
-- **Integration skills** - Google Workspace, n8n workflow automation, and more
-- **Documentation tools** - Claw documentation generation and management
-- **Utility skills** - Summarization, kitchen maintenance, and other utilities
+- **Integration skills** - External resource integration and intelligent process systems
+- **Utility skills** - Kitchen maintenance and other utilities
 
 ## Skills Inventory
 
@@ -22,14 +21,10 @@ This repository contains various skills that extend the capabilities of OpenClaw
 - **strategist** - Long-term planning and reflection capabilities
 
 ### Integration Skills
-- **gog** - Google Workspace integration (Gmail, Calendar, Drive, Contacts, Sheets, Docs)
-- **n8n-workflow-automation** - Integration with n8n workflow automation platform
 - **erid** - External resource integration and data management
 - **ipis** - Intelligent process integration system
 
-### Documentation & Utility Skills
-- **clawddocs** - Claw documentation generation and management
-- **summarize** - Text summarization and analysis tools
+### Utility Skills
 - **kitchen** - Kitchen management and maintenance utilities
 - **kitchen-maint** - Extended kitchen maintenance capabilities
 
