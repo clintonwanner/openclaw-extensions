@@ -22,7 +22,7 @@ This repository contains various skills that extend the capabilities of OpenClaw
 
 ### Integration Skills
 - **erid** - Executive Role Intelligence Dashboard — track CISO/VP security roles, executive search firms, applications, and career signals
-- **ipis** - Intelligent process integration system
+- **ipis** - Interview Performance Intelligence System
 
 ### Utility Skills
 - **kitchen** - Kitchen management and maintenance utilities
