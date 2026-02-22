@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+import { commands } from '../lib/commands.mjs';
+
+const [,, cmd] = process.argv;
+
+if (!cmd || cmd === 'help') {
+  console.log(`kitchen-maint — Maintenance for kitchen-app
+
+  test      Run tests (clean output)
+  lint      Run ESLint with file:line errors
+  build     Production build + bundle size
+  check     Full sweep: lint → test → build
+  outdated  List outdated dependencies
+  install   Set up Git pre-commit hook
+`);
+  process.exit(0);
+}
+
+if (!commands[cmd]) {
+  console.error(`Unknown command: ${cmd}`);
+  process.exit(1);
+}
+
+commands[cmd]().catch(err => {
+  console.error(err.message);
+  process.exit(1);
+});

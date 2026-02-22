@@ -1,0 +1,8 @@
+{
+  "name": "kitchen-maint",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "kitchen": "./bin/kitchen"
+  }
+}
