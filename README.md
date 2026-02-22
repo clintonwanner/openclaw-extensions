@@ -1,6 +1,6 @@
 # OpenClaw Extensions
 
-A collection of skills and extensions for the OpenClaw AI assistant platform.
+A collection of Clinton Wanner authored skills and extensions for the OpenClaw AI assistant platform.
 
 ## Overview
 
